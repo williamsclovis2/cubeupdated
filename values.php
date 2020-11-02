@@ -37,6 +37,7 @@ http://miradontsoa.com
   <link rel="stylesheet" href="js/vendor/swiper.min.css">
   <link rel="stylesheet" href="js/vendor/jquery.fullpage.min.css">
   <link rel="stylesheet" href="js/vegas/vegas.min.css">
+  <link rel="shortcut icon" href="img/logo/Cube_U_6.gif">
 
   <!-- Main CSS files -->
   <link rel="stylesheet" href="css/main.css">

@@ -78,23 +78,28 @@ http://miradontsoa.com
                 <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-b">
                   <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
                    <div class="brand-img">
-                       <img src="img/logo/clients/logo3.png">
+                       <img src="img/logo/clients/babyl-white-logo.png" class="client_logo">
                       <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
                     </div>
                     <hr class="align-white anim-2" style="position:relative;float:left;">
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 right pd-r-0  colon-height">
-                  <img src="img/test1.jpg" class="img img-responsive">
+                  <img src="img/artwork.jpg" class="img img-responsive">
                 </div>
               </div>
 
               <div class="row customers cust-bg-1 anim-2">
-                <div class="col-md-6 left pd-l-0  colon-height">
-                  <img src="img/test1.jpg" class="img img-responsive">
+                <div class="col-sm-12 col-md-6 pd-r-0  colon-height">
+                  <video autoplay muted data-keepplaying loop>
+                        <source src="vid/Babyl_self%20diagnosis_Eng_NA.mp4" type="">
+                 </video>
                 </div>
-                 <div class="col-md-6 left pd-l-0  colon-height">
-                  <img src="img/test1.jpg" class="img img-responsive">
+                 <div class="col-md-6 right  colon-height" id="solid-bg-o">
+                  <div class="title-desc orang-desc text-right " id="right-margin">
+                    <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                    <hr class="align-white anim-2" style="position:relative;float:right;">
+                  </div>
                 </div>
               </div>
           </div>
@@ -117,7 +122,7 @@ http://miradontsoa.com
                 <div class="col-md-6 left pd-l-0  colon-height">
                   <img src="img/ORF.JPG" class="img img-responsive">
                 </div>
-                <div class="col-md-6 right  colon-height" id="solid-bg-o">
+                <div class="col-md-6 right  colon-height" id="solid-bg-b">
                   <div class="title-desc orang-desc with-brand text-right " id="right-margin" style="padding-left:15px;">
                      <div class="brand-img">
                        <img src="img/logo/clients/logo3.png">
@@ -129,8 +134,14 @@ http://miradontsoa.com
               </div>
 
               <div class="row customers cust-bg-1 anim-2">
-                <div class="col-md-6 left pd-l-0  colon-height">
-                  <img src="img/1afrexim.jpg" class="img img-responsive">
+                <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-o">
+                  <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
+                   <div class="brand-img">
+                       <img src="img/logo/clients/logo3.png">
+                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                    </div>
+                    <hr class="align-white anim-2" style="position:relative;float:left;">
+                  </div>
                 </div>
                 <div class="col-md-6 left pd-l-0  colon-height">
                   <img src="img/ef4.JPG" class="img img-responsive">
@@ -214,7 +225,19 @@ aud.onplay = function() {
 ;
 </script>
 
-
+<script type="text/javascript">
+  window.__lc = window.__lc || {};
+  window.__lc.license = 12332553;
+  (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+  })();
+</script>
+<noscript>
+<a href="https://www.livechatinc.com/chat-with/12332553/" rel="nofollow">Chat with us</a>,
+powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
 </body>
 
 

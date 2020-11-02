@@ -30,17 +30,17 @@
         <div class="footer-right header-icons icons-menu">
           <ul class="social">
             <li>
-              <a href="#">
+              <a href="https://www.facebook.com/CubeRwanda" target="_blank">
                 <i class="icon fa fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://twitter.com/cuberwanda?lang=en" target="_blank">
                 <i class="icon fa fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://instagram.com/cube__rwanda?igshid=ufdv2zvcxaws" target="_blank">
                 <i class="icon fa fa-instagram"></i>
               </a>
             </li>

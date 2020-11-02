@@ -4,7 +4,8 @@ $controller = new Controller();
 $errmsg  = "";
 $succmsg  = "";
 if (Input::exists()) {
-    if(Token::check(Input::get('token'))) {
+//    if(Token::check(Input::get('token'))) {
+        $errmsg  = "success";
         $validate = new Validate();
         $validation = $validate->check($_POST, array(
             'firstname' => array(
@@ -43,8 +44,12 @@ if (Input::exists()) {
                 'required' => true,
             )
         ));
-
-        if ($validate->passed()) {
+         //your site secret key
+            $secret = '6LfPH94ZAAAAACGcyDXp5lG6hg_dGxlX0OEYYspv';
+            //get verify response data
+            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
+            $responseData = json_decode($verifyResponse);
+        if ($validate->passed()  && $responseData->success ) {
             try {
                 $controller->create('contact', array(
                     'firstname'    => escape(Input::get('firstname')),
@@ -62,9 +67,9 @@ if (Input::exists()) {
                     <body style="font-family: helvetica;">
                         <section style="background: #e7e9ea; padding: 0 100px;">
                             <center>
-                                <article style="border-top: 3px solid #025652; border-radius: 0px; background: #ffffff;">
-                                    <div style="background: #025652; padding: 10px 0; height: auto; overflow: auto; color: #ffffff;">
-                                        <img src="https://agrf.org/img/logo_event.png" class="img img-responsive" style="float: left; margin-left: 10px; height: 90px;">
+                                <article style="border-top: 3px solid #f47821; border-radius: 0px; background: #ffffff;">
+                                    <div style="background: #f47821; padding: 10px 0; height: auto; overflow: auto; color: #ffffff;">
+                                        <img src="img/logo/logo.png" class="img img-responsive" style="float: left; margin-left: 10px; height: 90px;">
                                         <h1 style="font-weight: 400; text-transform: uppercase;">Contact details</h1>
                                     </div>
                                     <div style="padding: 20px 0;">
@@ -99,10 +104,9 @@ if (Input::exists()) {
                 $errmsg .= $error . '<br />';
             }
         }
-    }
+//    }
 }
 ?>
-
 <!doctype html>
 <!--
 Website By Miradontsoa / MiVFX
@@ -154,7 +158,7 @@ http://miradontsoa.com
   <link rel="stylesheet" href="fonts/bebas/stylesheet.css">
   <link rel="stylesheet" href="fonts/ionicons.min.css">
   <link rel="stylesheet" href="fonts/font-awesome.min.css">
-
+  <link rel="shortcut icon" href="img/logo/Cube_U_6.gif">
   <!-- Vendor CSS style -->
   <link rel="stylesheet" href="css/pageloader.css">
 
@@ -173,6 +177,7 @@ http://miradontsoa.com
 
   <script src="js/vendor/modernizr-2.7.1.min.js"></script>
   <link rel="stylesheet" href="css/animate.css">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body id="menu" class="body-page">
@@ -214,17 +219,17 @@ http://miradontsoa.com
         <div class="footer-right header-icons icons-menu">
           <ul class="social">
             <li>
-              <a href="http://facebook.com/miradontsoa">
+              <a href="https://www.facebook.com/CubeRwanda" target="_blank">
                 <i class="icon fa fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="http://twitter/miradontsoa">
+              <a href="https://twitter.com/cuberwanda?lang=en" target="_blank">
                 <i class="icon fa fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="http://instagram.com/miradontsoa">
+              <a href="https://instagram.com/cube__rwanda?igshid=ufdv2zvcxaws" target="_blank">
                 <i class="icon fa fa-instagram"></i>
               </a>
             </li>
@@ -292,15 +297,16 @@ http://miradontsoa.com
                         </div>
                         <?php endif; ?>
                           
-                        <p class="fill" style="font-size:20px !important; margin-bottom:25px;"> Fill in the details below and we’ll set up a call with you. </p>
+                        <p class="" style="font-size:20px !important; margin:unset !important;"> Fill in the details below and we’ll set up a call with you. </p>
+                        <p style="margin-bottom:20px;">*Mandatory fields</p>
                         
                         <div class="form-group">
                             <div class="col-md-6" id="n-pd-l">
-                                 <input id="" name="firstname" type="text" placeholder="First name" class="form-control form-control-outline thick form-success-clean"
+                                 <input id="" name="firstname" type="text" placeholder="First name*" class="form-control form-control-outline thick form-success-clean"
                           required>
                             </div>
                             <div class="col-md-6" id="n-pd-r">
-                                 <input id="" name="lastname" type="text" placeholder="Last name" class="form-control form-control-outline thick form-success-clean"
+                                 <input id="" name="lastname" type="text" placeholder="Last name*" class="form-control form-control-outline thick form-success-clean"
                           required>
                             </div>
                        
@@ -310,14 +316,14 @@ http://miradontsoa.com
                             <div class="col-md-6 col-p-left">
                                 <div class="span8">
                                     <div class=" input-mc">
-                                        <label>Telephone</label><br>
+                                        <label>Telephone <span>*</span></label><br>
                                         <input id="phone" name="telephone" class="input" value="" type="tel">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-p-right">
                                 <div class="select input-mc">
-                                    <label>Country</label><br>
+                                    <label>Country <span>*</span></label><br>
                                     <div class="select-country">
                                         <select class="selectpicker countrypicker c-size" name="country" data-default="RWANDA" id="country" data-live-search="true" data-flag="true"  required="required"  style="width: 100%;"></select>
                                     </div>
@@ -328,37 +334,33 @@ http://miradontsoa.com
                         </div>
                           
                         <div class="form-group email">
-                          <input id="" type="email" placeholder="Email address" name="email" class="form-control form-control-outline thick form-success-clean"
+                          <input id="" type="email" placeholder="Email address*" name="email" class="form-control form-control-outline thick form-success-clean"
                           required>
                         </div>
                         <div class="form-group name">
-                          <input id="" name="organisation-name" type="text" placeholder="Organisation  name" class="form-control form-control-outline thick form-success-clean"
+                          <input id="" name="organisation-name" type="text" placeholder="Organisation  name*" class="form-control form-control-outline thick form-success-clean"
                           required>
                         </div>
                         <div class="form-group name">
-                          <input id="id1" name="website" type="url" placeholder="Website" class="form-control form-control-outline thick form-success-clean"
-                          required>
+                          <input id="id1" name="website" type="url" placeholder="Website" class="form-control form-control-outline thick form-success-clean">
                         </div>
                         <div class="form-group name" style="margin-bottom:10px;">
                           <select  name="product"   class="form-control form-control-outline thick form-success-clean" required id="select-bx">
-                            <option hidden="hidden" style="color:red !important;">&#91; Select &#93;</option>
+                            <option hidden="hidden" style="color:red !important;"> Select area of interest <span>*</span></option>
                              <option value="PR, Advertising & Digital ">PR, Advertising & Digital </option>
                              <option value="Hybrid Conferences & Exhibitions  ">Hybrid Conferences & Exhibitions</option>
                              <option value="VIP Concierge Conference Services ">VIP Concierge Conference Services </option>
+                             <option value="All Services">All Services </option>
                             </select>
                         </div>
                         <div class="form-group">
                           <label for="" class="ckeck-b" style="font-weight:unset;"><input type="checkbox" id="vehicle2" value="yes" name="privacy_policy" data-uid="undefined-field-8">
                                    Yes, I agree to receive updates from Cube Communications Ltd by email  </label>
                             <label for="" class="ckeck-b" style="font-weight:unset; margin-top:-19px; "><input type="checkbox" id="vehicle2" value="yes" name="privacy_policy" data-uid="undefined-field-8">
-                                   Yes, I agree to the  <a href="privacy" style="color:#fff; font-style:bold;"> Privacy policy</a> </label>
+                                   Yes, I agree to the  <a href="privacy" style="color:#f47821; font-style:bold;"> Privacy policy</a> </label>
                         </div>
-                        <div class="form-group">
-                          
-                        </div>
-                        
-
                         <div class="btns text-right">
+                         <div class="g-recaptcha" data-sitekey="6LfPH94ZAAAAAB6R7dhmBdbDNzT63y2cOElTMlsB"></div>
                           <input type="hidden" name="token" value="<?php echo Token::generate(); ?>">
                           <button id="submit-message" class="btn btn-outline-white btn-round btn-fullNot email_b"
                           name="" type="submit">

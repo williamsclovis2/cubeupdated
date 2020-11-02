@@ -28,6 +28,7 @@ http://miradontsoa.com
   <link rel="stylesheet" href="fonts/bebas/stylesheet.css">
   <link rel="stylesheet" href="fonts/ionicons.min.css">
   <link rel="stylesheet" href="fonts/font-awesome.min.css">
+  <link rel="shortcut icon" href="img/logo/Cube_U_6.gif">
 
   <!-- Vendor CSS style -->
   <link rel="stylesheet" href="css/pageloader.css">
@@ -475,7 +476,21 @@ aud.onplay = function() {
 
 ;
 </script>
-
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+  window.__lc = window.__lc || {};
+  window.__lc.license = 12332553;
+  (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+  })();
+</script>
+<noscript>
+<a href="https://www.livechatinc.com/chat-with/12332553/" rel="nofollow">Chat with us</a>,
+powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
+<!-- End of LiveChat code -->
 
 </body>
 

@@ -35,6 +35,7 @@
   <link rel="stylesheet" href="js/vendor/swiper.min.css">
   <link rel="stylesheet" href="js/vendor/jquery.fullpage.min.css">
   <link rel="stylesheet" href="js/vegas/vegas.min.css">
+  <link rel="shortcut icon" href="img/logo/Cube_U_6.gif">
 
   <!-- Main CSS files -->
   <link rel="stylesheet" href="css/main.css">
@@ -252,8 +253,8 @@
       
     </div>
   </div>
-  <div class="more-button">
-     <a href="#moresection" id="loadbtn" class="btn btn-default" onclick="loadMore()">View More</a>
+  <div class="more-button"> 
+     <a href="#moresection" id="loadbtn" class="btn btn-default" onclick="loadMore()"> <i class="ion ion-chevron-down"></i></a>
   </div>
   <script>
     function loadMore(){
@@ -287,6 +288,19 @@
   <script src="work/js/jquery-2.1.4.min.js"></script>
   <script src="work/js/custom.js"></script>
   <script src="work/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  window.__lc = window.__lc || {};
+  window.__lc.license = 12332553;
+  (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+  })();
+</script>
+<noscript>
+<a href="https://www.livechatinc.com/chat-with/12332553/" rel="nofollow">Chat with us</a>,
+powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
 </body>
 
 </html>

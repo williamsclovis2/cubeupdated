@@ -224,10 +224,24 @@ div#images{padding:1px;}
     position:fixed;
     bottom:30px;
 /*    z-index:9999;*/
-    left:45.5%;
+    left:48.5%;
 }
-.more-button .btn-default{padding:10px;background-color:rgba(0,0,0,0.9);text-transform:uppercase;letter-spacing:2px;border-radius:0;border:1px solid #fff;color:#fff !important;font-weight:500px; min-height: unset; font-size: 15px;}
-.more-button .btn-default:hover{background-color:rgba(0,0,0,0.5);border:1px solid #fff;}
+.more-button .btn-default{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(0,0,0,0.9);
+   border:3px solid #fff;
+    min-height: unset;
+    border-radius: 100%;
+    font-size: 16px;
+    text-align: center;
+
+}
+.more-button .btn-default i{
+    font-size: 22px;
+    margin-left: -7px;
+}
+.more-button .btn-default:hover{background-color:rgba(0,0,0,0.5);}
 .more-button .btn-default{font-weight:400;}
 
 

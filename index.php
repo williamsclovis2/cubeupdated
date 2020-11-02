@@ -59,6 +59,7 @@ http://miradontsoa.com
   <link rel="stylesheet" href="css/custom.css">
   <!-- Main CSS files -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="img/logo/Cube_U_6.gif">
 
   <!-- add alt layout here -->
   <link rel="stylesheet" href="css/style-default.css">
@@ -108,17 +109,17 @@ http://miradontsoa.com
         <div class="footer-right header-icons icons-menu">
           <ul class="social">
             <li>
-              <a href="http://facebook.com/miradontsoa">
+              <a href="https://www.facebook.com/CubeRwanda" target="_blank">
                 <i class="icon fa fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="http://twitter/miradontsoa">
+              <a href="https://twitter.com/cuberwanda?lang=en" target="_blank">
                 <i class="icon fa fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="http://instagram.com/miradontsoa">
+              <a href="https://instagram.com/cube__rwanda?igshid=ufdv2zvcxaws" target="_blank">
                 <i class="icon fa fa-instagram"></i>
               </a>
             </li>
@@ -133,7 +134,7 @@ http://miradontsoa.com
         <ul class="navbar-nav mr-auto">
           
           <li class="nav-item">
-            <a class="nav-link" href="value">Our values</a>
+            <a class="nav-link" href="values">Our values</a>
           </li>
           <hr class="hr-two">
           <li class="nav-item">
@@ -233,5 +234,18 @@ http://miradontsoa.com
 
   <!-- Javascript main files -->
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+  window.__lc = window.__lc || {};
+  window.__lc.license = 12332553;
+  (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+  })();
+</script>
+<noscript>
+<a href="https://www.livechatinc.com/chat-with/12332553/" rel="nofollow">Chat with us</a>,
+powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
 </body>
 </html>
