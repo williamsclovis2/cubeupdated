@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: Gotham-light;
+    src: url(../fonts/Gotham-light.ttf);
+}
+*{
+  font-family: Gotham-light;  
+}
+#home-page{
+    background-image:linear-gradient(rgba(2, 20, 32, 0.5),rgba(2, 20, 32, 0.7)),url(../images/background/cube.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.back-wrap .img{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
+/*.back-wrap .img img{
+    width: 600px;
+    height: 205px;
+}
+*/
+
+.home-button a{
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #f47821;
+    width: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+.home-button a:hover{
+    background-color: #f47821;
+    color: #fff;
+    border: 1px solid #f47821;
+}
+
+@media screen and (max-width: 640px){
+    .img img{
+        width: 300px !important;
+        margin-top: 50px;
+        height: unset !important;
+    }
+    .back-wrap .img{
+        position: absolute;
+        margin: auto;
+        text-align: center;
+        top: 30%;
+        
+    }
+    .home-button a{
+        background-color: transparent;
+        border-radius: 0;
+        border: 1px solid #f47821;
+        width: 100px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        padding: 8px;
+
+    }
+}

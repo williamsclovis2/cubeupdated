@@ -1,0 +1,198 @@
+
+/*scrolling  bar*/
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.9);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.9)
+}
+
+/*@font-face{font-family:Gotham-light;src:url(../fonts/Gotham-light.ttf);}*/
+body{padding:0;margin:0;background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/background/office.jpg);background-size:cover;background-repeat:no-repeat;background-attachment:fixed;font-family:Gotham-light;}
+#portfolio .model-body{margin-top:120px;background-color:#000;}
+#portfolio .carousel{padding-right:40px;position:relative;padding-left:40px;}
+.logo{margin:auto;}
+.logo a{color:#f16522 !important;font-weight:400 !important;text-decoration:unset;font-size:20px;}
+.back a{color:#f16522 !important;font-weight:500 !important;text-decoration:unset;font-size:18px;float:right;}
+.logo img{
+    width: 100px;
+    height: 30px;
+}
+.header{
+    padding: 15px 10px;
+    width: 100%;
+    background-color: #000;
+}
+.back a:hover{color:#fff !important;}
+.hr-one{margin-top:20px;margin-bottom:20px;border:0px none;text-align:center;width:100%;height:1px;background-image:linear-gradient(to right, transparent, #ffff, transparent);}
+
+#home{color:#ff7900;}
+#home:hover{color:#fff;}
+.container-fluid{padding:100px;}
+span{color:#ff7900;}
+@media screen and (max-width:640px){.container{display:block;width:100%;}
+}
+.container .title{color:#1a1a1a;text-align:center;margin-bottom:10px;}
+.content{position:relative;width:100%;max-width:400px;margin:auto;overflow:hidden;}
+.content .content-overlay{background:rgba(0,0,0,0.7);position:absolute;height:100%;width:100%;left:0;top:0;bottom:0;right:0;opacity:0;-webkit-transition:all 0.4s ease-in-out 0s;-moz-transition:all 0.4s ease-in-out 0s;transition:all 0.4s ease-in-out 0s;}
+.content:hover .content-overlay{opacity:1;}
+.content-image{width:100%;}
+.content-details{position:absolute;text-align:center;padding-left:1em;padding-right:1em;width:100%;top:50%;left:50%;opacity:0;-webkit-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);transform:translate(-50%, -50%);-webkit-transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;transition:all 0.3s ease-in-out 0s;}
+.content:hover .content-details{top:50%;left:50%;opacity:1;}
+.content-details h3{color:#fff;font-weight:100;:0.15em */;margin-bottom:0.5em;text-transform:initial;font-family:Gotham-light;font-size:13px;margin-top:0px;}
+.content-details p{color:#fff;font-size:0.8em;}
+.fadeIn-bottom{top:80%;}
+.fadeIn-top{top:20%;}
+.fadeIn-left{left:20%;}
+.fadeIn-right{left:80%;}
+#mobile-slide{display:none;}
+#portfolio{padding:0;background-color:transparent;padding-bottom:0px;}
+#portfolio .container-fluid{padding:0;}
+div#images{padding:px;padding-left:1px;padding-right:1px;padding:1px}
+.modal-dialog{position:absolute;top:-20% !important;width:100%;}
+.modal-dialog .carousel-inner img{width:90%;padding-left:125px}
+.carousel-indicators{padding-left:125px;}
+.carousel-indicators img{height:70px;width:120px;}
+#carousel-custom{width:100%;}
+
+#carousel-custom-16 .carousel-indicators{margin:10px 0 0;overflow:auto;position:static;text-align:left;white-space:nowrap;width:100%;}
+
+#carousel-custom-16 .carousel-indicators li{background-color:transparent;-webkit-border-radius:0;border-radius:0;display:inline-block;height:auto;margin:0 !important;width:auto;}
+
+#carousel-custom-16 .carousel-indicators li img{display:block;opacity:0.5;}
+
+#carousel-custom-16 .carousel-indicators li img{opacity:1;}
+
+#carousel-custom-16 .carousel-indicators li:hover img{opacity:0.75;}
+
+#carousel-custom .carousel-outer{position:relative;}
+.carousel-control.left{background-image:none;width:54px;height:54px;border-radius:50%;top:50%;left:10px;margin-top:-27px;line-height:54px;border:1px solid #ff7900;opacity:1;text-shadow:none;-webkit-transition:all 0.2s ease-in-out 0s;-o-transition:all 0.2s ease-in-out 0s;transition:all 0.2s ease-in-out 0s;}
+.carousel-control.right{background-image:none;width:54px;height:54px;border-radius:50%;top:50%;right:10px;margin-top:-27px;line-height:54px;border:1px solid #ff7900;opacity:1;text-shadow:none;-webkit-transition:all 0.2s ease-in-out 0s;-o-transition:all 0.2s ease-in-out 0s;transition:all 0.2s ease-in-out 0s;}
+.carousel-control.left .fa{color:#ff7900;}
+.carousel-control.right .fa{color:#ff7900;}
+.close {
+    position: absolute;
+    top: 20%;
+    /* left: 93%; */
+    right: 5%;
+    z-index: 9999;
+    opacity: unset !important;
+    background-color: red;
+}
+.close img{width:80px;height:60px;}
+.carousel-caption{margin-top:10px;background-color:rgba(0,0,0,0.4);padding:10px;}
+.carousel-caption h3{text-transform:uppercase;letter-spacing:2px;text-transform:initial;font-family:Gotham-light;font-weight:600;font-size:16px;}
+.carousel-caption p{letter-spacing:1px;padding:5px;font-size:13px;text-transform:initial;font-family:Gotham-light;}
+@media(max-width:891px){}
+@media only screen and (max-width:640px){#portfolio .carousel{padding-right:unset;padding-right:unset;}
+
+#portfolio{display:none;}
+#mobile-slide{display:block;background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/background/office.jpg);background-size:cover;background-repeat:no-repeat;background-attachment:fixed;margin-top:0px;}
+#mobile-slide .carousel-control.right .fa{color:#fff;}
+#mobile-slide .carousel-control.left .fa{color:#fff;}
+.carousel-control.right{display:none;}
+.carousel-control.left{display:none;}
+div#images{padding:1px;}
+.mobile-header ul{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 9999;
+    padding: 12px;
+}
+.mobile-header ul li{
+    list-style: none;
+    display: inline-block;
+}
+#brand{
+    margin-left: 0px;
+}
+#back{
+    float: right;
+    margin-top: 7px;
+    padding-right: 7px;
+    
+}
+#black a{
+    
+    
+}
+
+.mobile-header ul li a{
+    text-decoration: none;
+    color: #f16522 !important;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.mobile-header ul li a:hover{
+    color: #fff !important;
+}
+.slides{
+    padding-top:70px;
+}
+}
+@media only screen and (max-width:991px){
+    body{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/background/office.jpg) !important;
+    }
+.mobile-header ul{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 9999;
+    padding: 12px;
+    top: 0;
+}
+.mobile-header ul li{
+    list-style: none;
+    display: inline-block;
+}
+#brand{
+    margin-left: 0px;
+}
+#back{
+    float: right;
+    margin-top: 7px;
+    padding-right: 7px;
+    
+}
+#black a{
+    
+    
+}
+
+.mobile-header ul li a{
+    text-decoration: none;
+    color: #f16522 !important;
+    font-size: 15px;
+    font-weight: 600px;
+    
+}
+.mobile-header ul li a:hover{
+    color: #fff !important;
+}
+.slides{
+    padding-top:70px;
+}
+}
+#mobile-slide .carousel-control{
+    display: block;
+    border: unset;
+    opacity: 3;
+}
+#mobile-slide .glyphicon {
+    color: #FF5722;
+}

@@ -1,0 +1,162 @@
+}
+@media screen and (max-width: 640px){
+#db-video{
+    height: unset !important;
+}
+.logo-div{
+    top: 50%;
+}
+.log-gif img {
+    width: 300px !important;
+    height: unset !important;
+}
+.log-btn  a {
+    width: 100px;
+    font-size: 14px;
+}
+#main-boxes .row{
+    padding: 50px 10px;
+}
+ .square h3{
+    font-size: 15px;
+}
+.icons-menu{
+    margin: auto !important;
+    text-align: center !important;
+}
+.section-home{
+    min-height: 100vh !important;
+}
+/*
+#col-mg .col-lg-6{
+    height: 200px;
+}
+*/
+ .wrap-text-cont h4 {
+       top: 35%;
+    }
+.contact-row{
+    padding: 5px !important;
+}
+.row-contact-list{
+    min-height: 0 !important;
+    padding: 20px !important;
+}
+.contact-row{
+   margin-top: 10px !important; 
+}
+.orang-desc h4{
+    font-size: 20px;
+    line-height: normal;
+}
+#left-margin {
+    margin-left: .2rem;
+}
+#right-margin {
+    margin-right: .2rem;
+}
+#squar-4-left .orang-desc {
+    margin-left: .7rem;
+    left: 17%;
+}
+#squar-4-right .orang-desc {
+    margin-right: 1rem;
+}
+.no-m-padng{
+    padding-top: unset !important;
+    padding-bottom: unset !important;
+}   
+.section-content .title-desc{
+    margin-bottom:0 !important;
+}
+#s1 .col-lg-8,.col-lg-4,.col-md-8,.col-md-4{
+  padding-left: unset  !important;
+    padding-right: unset !important;
+}
+.customers img{
+    height: 150px !important;
+}
+#register h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.square {
+    padding: 16px 20px;
+}
+#with-form{
+    height: 100%;
+    padding-bottom: 30px;
+    
+}
+#contact-form{
+   padding-bottom: 0 !important; 
+   padding-top: 0 !important; 
+}
+#with-form .form-container-card{
+   padding: 0 !important; 
+    
+}
+.select.input-mc{
+    padding-left: 0 !important;
+    padding-top: 10px;
+}
+.country-code .col-p-right {
+    padding-left: 0 !important;
+    }
+.col-cont{
+    display: unset !important;
+    position: unset !important;
+    margin-left: 0 !important;
+    padding-top: 15px;
+}
+#message_form {
+    margin-top: 80px;
+}
+.contact-logo{
+   margin-top:-50px;   
+}
+}
+
+@media (max-width: 768px){
+#main-boxes .row{
+    padding: 20px;
+}
+ .square h3{
+    font-size: 15px;
+}
+.icons-menu{
+    margin: auto !important;
+    text-align: center !important;
+}
+.section-home{
+    min-height: 100vh !important;
+}
+#col-mg .col-lg-6{
+    height: 100%;;
+}
+ 
+.orang-desc h4{
+    font-size: 20px;
+    line-height: normal;
+}
+#left-margin {
+    margin-left: .2rem;
+}
+#right-margin {
+    margin-right: .2rem;
+}
+#squar-4-right .orang-desc {
+    margin-right: 1rem;
+
+    }
+    #register h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.square {
+    padding: 16px 20px;
+}
+
+}

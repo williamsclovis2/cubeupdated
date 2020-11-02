@@ -1,0 +1,74 @@
+@font-face {
+font-family: Gotham-light;
+    src: url(../fonts/Gotham-light.ttf);
+}
+
+*{
+   font-family: Gotham-light;
+}
+#error{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../images/background/office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.align {
+    position: relative;
+    top: 100px;
+}
+.error-all-cont {
+    margin: auto;
+    text-align: center;
+}
+.error-content h1{
+    font-weight: 750;
+    font-size: 300px;
+    color: #f3efef; 
+}
+.error-content h1 span{
+    color: #f47821;
+}
+.error-tittle h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.back-home p{
+    color:#f8efef;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.back-home p a{
+    color:#f47821;
+    text-decoration: none;
+    border-bottom: 1px solid #f47821;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.back-home p a:hover{
+    color: #f06c10f7;
+     border-bottom: 1px solid #f47821;
+}
+
+
+@media (max-width: 768px){
+    .error-content h1{
+        font-weight: 700;
+        font-size: 150px;
+        color: #f3efef;
+    }
+    .error-tittle h1{
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .error-all-cont{
+        margin-top: 100px;
+    }
+}
