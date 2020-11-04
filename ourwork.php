@@ -256,6 +256,11 @@
   <div class="more-button"> 
      <a href="#moresection" id="loadbtn" class="btn btn-default" onclick="loadMore()"> <i class="ion ion-chevron-down"></i></a>
   </div>
+    <div class="second">
+       <div id="morePics">
+        
+        </div> 
+    </div>
   <script>
     function loadMore(){
             var data="";
@@ -266,7 +271,7 @@
                 //alert(msg);
                 var ms=msg.trim();
                 $("#loadbtn").hide();
-                    document.getElementById("gall-img").innerHTML+=ms;
+                    document.getElementById("morePics").innerHTML=ms;
                     
                    
                  }
@@ -303,6 +308,16 @@
 powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
 </noscript>
 -->
+<script>
+    $("#loadbtn").click(function() {
+    
+    window.setTimeout(function(){
+    $('html,body').animate({
+        scrollTop: $(".second").offset().top},
+        'slow');
+    }, 200);    
+});
+</script>
 </body>
 
 </html>
