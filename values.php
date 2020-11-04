@@ -78,7 +78,7 @@ http://miradontsoa.com
 
     <!-- Begin of home section -->
     <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered" id="orange-bg"
-    data-section="1">
+    data-section="corevalues">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin v-center">
         <!-- content -->
@@ -116,7 +116,7 @@ http://miradontsoa.com
     
     <!-- Begin of list products section -->
    <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered" id=""
-    data-section="2">
+    data-section="Integrity">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin v-center">
         <!-- content -->
@@ -127,7 +127,7 @@ http://miradontsoa.com
               <!-- title and description -->
               <div class="title-desc orang-desc" id="right-margin">
                 <h5>Integrity </h5>
-                <h4 class="anim-2"  style="width:100%;">We work with trust, transparency & honesty ensuring consistent and uncompromising adherence to ethical principles and values. It is the foundation with which build relationships and trust. </h4>
+                <h4 class="anim-2"  style="width:100%;">We work with trust, transparency & honesty ensuring consistent and uncompromising adherence to ethical principles and values. It is the foundation with which we build relationships and trust. </h4>
                  <hr class="align-white anim-2" style="position:relative;float:right;">
               </div>
 
@@ -148,7 +148,7 @@ http://miradontsoa.com
     </div>
     <!-- End of list products section -->
     <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered" id="orange-bg"
-    data-section="3 " style="background-color:#f48921 !important;">
+    data-section="Accountability" style="background-color:#f48921 !important;">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin v-center">
         <!-- content -->
@@ -180,7 +180,7 @@ http://miradontsoa.com
       <!-- End of section wrapper -->
     </div>
     <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered" id=""
-    data-section="4" style="background-color:#1e1e1e;">
+    data-section="Boldness" style="background-color:#1e1e1e;">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin v-center">
         <!-- content -->
@@ -190,8 +190,8 @@ http://miradontsoa.com
             <div class="col-12 col-lg-8 text-right">
               <!-- title and description -->
               <div class="title-desc orang-desc " id="right-margin">
-                <h5>Boldness  </h5>
-                <h4 class="anim-4"  style="width:100%;">We challenge orientation & the status quo with openness optimism & commitment. We maintain a level of prudence and a particular clear sightedness and bring our whole selves to your project and fully engage with your desired outcomes. </h4>
+                <h5>Boldness</h5>
+                <h4 class="anim-4"  style="width:100%;">We challenge orientation & the status quo with openness, optimism & commitment. We maintain a level of prudence and a particular clear sightedness to bring our whole selves to your project and fully engage with your desired outcomes. </h4>
                  <hr class="align-white anim-2" style="position:relative;float:right;">
               </div>
 
@@ -211,7 +211,7 @@ http://miradontsoa.com
       <!-- End of section wrapper -->
     </div>
      <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered" id="orange-bg"
-    data-section="5 " style="background-color:#f49821 !important;">
+    data-section="Passion" style="background-color:#f49821 !important;">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin v-center">
         <!-- content -->
@@ -242,7 +242,7 @@ http://miradontsoa.com
       <!-- End of section wrapper -->
     </div>
      <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered" id=""
-    data-section="6" style="background-color:#000;">
+    data-section="Getintouch" style="background-color:#000;">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin v-center">
         <!-- content -->

@@ -37,6 +37,7 @@ http://miradontsoa.com
   <link rel="stylesheet" href="js/vendor/swiper.min.css">
   <link rel="stylesheet" href="js/vendor/jquery.fullpage.min.css">
   <link rel="stylesheet" href="js/vegas/vegas.min.css">
+  <link rel="shortcut icon" href="img/logo/Cube_U_6.gif">
 
   <!-- Main CSS files -->
   <link rel="stylesheet" href="css/main.css">
@@ -69,7 +70,7 @@ http://miradontsoa.com
 
     <!-- Begin of home section -->
  
-    <div class="section section-list-feature fp-auto-height-responsive no-m-padng " data-section="1" id="s1">
+    <div class="section section-list-feature fp-auto-height-responsive no-m-padng " data-section="babyl" id="s1">
       <div class="section-wrapper fullwidth with-margin">
         <!-- content -->
         <div class="section-content anim">
@@ -113,14 +114,14 @@ http://miradontsoa.com
       </div>
       <!-- End of section wrapper -->
     </div>
-    <div class="section section-list-feature fp-auto-height-responsive no-m-padng " data-section="2" id="s1">
+    <div class="section section-list-feature fp-auto-height-responsive no-m-padng " data-section="Inyange" id="s1">
       <div class="section-wrapper fullwidth with-margin">
         <!-- content -->
         <div class="section-content anim">
           <div class="col-12 col-lg-12">
               <div class="row customers anim-1">
                 <div class="col-md-6 left pd-l-0  colon-height">
-                  <img src="img/ORF.JPG" class="img img-responsive">
+                  <img src="img/SMlayout.jpg" class="img img-responsive">
                 </div>
                 <div class="col-md-6 right  colon-height" id="solid-bg-b">
                   <div class="title-desc orang-desc with-brand text-right " id="right-margin" style="padding-left:15px;">
@@ -144,7 +145,193 @@ http://miradontsoa.com
                   </div>
                 </div>
                 <div class="col-md-6 left pd-l-0  colon-height">
-                  <img src="img/ef4.JPG" class="img img-responsive">
+                  <video autoplay muted data-keepplaying loop>
+                        <source src="vid/inyange.mp4" type="">
+                 </video>
+                </div>
+              </div>
+          </div>
+        </div>
+
+       <footer class="section-footer scrolldown">
+          <a class="down">
+            <i class="ion ion-chevron-down"></i>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+     <div class="section section-list-feature fp-auto-height-responsive no-m-padng " data-section="BPR" id="s1">
+      <div class="section-wrapper fullwidth with-margin">
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="col-12 col-lg-12">
+              <div class="row customers anim-1">
+                <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-b">
+                  <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
+                   <div class="brand-img">
+                       <img src="img/logo/clients/logo3.png" class="client_logo">
+                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                    </div>
+                    <hr class="align-white anim-2" style="position:relative;float:left;">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 right pd-r-0  colon-height">
+                  <video autoplay muted data-keepplaying loop>
+                        <source src="vid/BPR.mp4" type="">
+                 </video>
+                  
+                </div>
+              </div>
+
+              <div class="row customers cust-bg-1 anim-2">
+                <div class="col-sm-12 col-md-6 pd-r-0  colon-height">
+                  <img src="img/SMlayout_BPR.jpg" class="img img-responsive">
+                </div>
+                 <div class="col-md-6 right  colon-height" id="solid-bg-o">
+                  <div class="title-desc orang-desc text-right " id="right-margin">
+                    <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                    <hr class="align-white anim-2" style="position:relative;float:right;">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+       <footer class="section-footer scrolldown">
+          <a class="down">
+            <i class="ion ion-chevron-down"></i>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+     <div class="section section-list-feature fp-auto-height-responsive no-m-padng " data-section="TAS" id="s1">
+      <div class="section-wrapper fullwidth with-margin">
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="col-12 col-lg-12">
+              <div class="row customers anim-1">
+                <div class="col-md-6 left pd-l-0  colon-height">
+                  <img src="img/SMlayout_TAS.jpg" class="img img-responsive">
+                </div>
+                <div class="col-md-6 right  colon-height" id="solid-bg-b">
+                  <div class="title-desc orang-desc with-brand text-right " id="right-margin" style="padding-left:15px;">
+                     <div class="brand-img">
+                       <img src="img/logo/clients/logo3.png">
+                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                    </div>
+                    <hr class="align-white anim-2" style="position:relative;float:right;">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row customers cust-bg-1 anim-2">
+                <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-o">
+                  <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
+                   <div class="brand-img">
+                       <img src="img/logo/clients/logo3.png">
+                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                    </div>
+                    <hr class="align-white anim-2" style="position:relative;float:left;">
+                  </div>
+                </div>
+                <div class="col-md-6 left pd-l-0  colon-height">
+                  <video autoplay muted data-keepplaying loop>
+                        <source src="vid/Transformvdo%202.mp4" type="">
+                 </video>
+                </div>
+              </div>
+          </div>
+        </div>
+
+       <footer class="section-footer scrolldown">
+          <a class="down">
+            <i class="ion ion-chevron-down"></i>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+    <div class="section section-list-feature fp-auto-height-responsive no-m-padng " data-section="TVET" id="s1">
+      <div class="section-wrapper fullwidth with-margin">
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="col-12 col-lg-12">
+              <div class="row customers anim-1">
+                <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-b">
+                  <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
+                   <div class="brand-img">
+                       <img src="img/logo/clients/logo3.png" class="client_logo">
+                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                    </div>
+                    <hr class="align-white anim-2" style="position:relative;float:left;">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 right pd-r-0  colon-height">
+                  <video autoplay muted data-keepplaying loop>
+                        <source src="vid/TVETGirl_1_1.mp4" type="">
+                 </video>
+                  
+                </div>
+              </div>
+
+              <div class="row customers cust-bg-1 anim-2">
+                <div class="col-sm-12 col-md-6 pd-r-0  colon-height">
+                  <img src="img/SMlayout_TVET.jpg" class="img img-responsive">
+                </div>
+                 <div class="col-md-6 right  colon-height" id="solid-bg-o">
+                  <div class="title-desc orang-desc text-right " id="right-margin">
+                    <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                    <hr class="align-white anim-2" style="position:relative;float:right;">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+       <footer class="section-footer scrolldown">
+          <a class="down">
+            <i class="ion ion-chevron-down"></i>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+     <div class="section section-list-feature fp-auto-height-responsive no-m-padng " data-section="YCA" id="s1">
+      <div class="section-wrapper fullwidth with-margin">
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="col-12 col-lg-12">
+              <div class="row customers anim-1">
+                <div class="col-md-6 left pd-l-0  colon-height">
+                  <img src="img/SMlayout_YCA.jpg" class="img img-responsive">
+                </div>
+                <div class="col-md-6 right  colon-height" id="solid-bg-b">
+                  <div class="title-desc orang-desc with-brand text-right " id="right-margin" style="padding-left:15px;">
+                     <div class="brand-img">
+                       <img src="img/logo/clients/logo3.png">
+                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                    </div>
+                    <hr class="align-white anim-2" style="position:relative;float:right;">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row customers cust-bg-1 anim-2">
+                <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-o">
+                  <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
+                   <div class="brand-img">
+                       <img src="img/logo/clients/logo3.png">
+                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                    </div>
+                    <hr class="align-white anim-2" style="position:relative;float:left;">
+                  </div>
+                </div>
+                <div class="col-md-6 left pd-l-0  colon-height">
+                  <video autoplay muted data-keepplaying loop>
+                        <source src="vid/YCA%20Highlight%202_1.mp4" type="">
+                 </video>
                 </div>
               </div>
           </div>
@@ -224,6 +411,7 @@ aud.onplay = function() {
 
 ;
 </script>
+<!--
 
 <script type="text/javascript">
   window.__lc = window.__lc || {};
@@ -238,6 +426,7 @@ aud.onplay = function() {
 <a href="https://www.livechatinc.com/chat-with/12332553/" rel="nofollow">Chat with us</a>,
 powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
 </noscript>
+-->
 </body>
 
 

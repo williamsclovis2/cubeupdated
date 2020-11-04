@@ -165,8 +165,8 @@ class User {
         $mail->AddAddress($email);
         $mail->Username="cubedigitalteamtest@gmail.com";
         $mail->Password="digitalteamtest12345";
-        $mail->SetFrom('cubedigitalteamtest@gmail.com','AGRF Summit 2020');
-        $mail->AddReplyTo("cubedigitalteamtest@gmail.com","AGRF Summit 2020");
+        $mail->SetFrom('cubedigitalteamtest@gmail.com','Cube Communications Ltd');
+        $mail->AddReplyTo("cubedigitalteamtest@gmail.com","Cube Communications Ltd");
         $mail->Subject    = $subject;
         $mail->MsgHTML($message);
         $mail->Send();

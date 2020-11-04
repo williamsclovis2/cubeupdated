@@ -68,8 +68,38 @@ http://miradontsoa.com
   <script src="js/vendor/modernizr-2.7.1.min.js"></script>
   <link rel="stylesheet" href="css/animate.css">
 </head>
-
-<body id="menu" class="body-page">
+<style>
+    #fluid-vid{
+        padding: 0 80px;
+        margin-top: 80px;
+    }
+    .video-dv video{
+        width: 100%;
+    }
+    .center-btn{
+        margin: auto;
+        text-align: center;
+        margin-top: -50px !important;
+    }
+    .center-btn a{
+        width: 250px;
+        background-color: transparent;
+        border-radius: unset;
+        border: 1px solid #fff;
+        color: #ffff;
+    }
+    .center-btn a:hover{
+        background-color: transparent;
+        border: 1px solid #fff;
+    }
+    .center-btn p{
+        padding-bottom: unset !important;
+    }
+    .playpause-content{
+        padding-right: 160px;
+    }
+</style>
+<body id="menu" class="body-page" style="background-color:#000;">
   <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -77,7 +107,84 @@ http://miradontsoa.com
   <!-- Page Loader : just comment these lines to remove it -->
 
   <!-- BEGIN OF site header Menu -->
-  <?php include("header.php");?>
+     <header class="page-header page-header-gallery navbar page-header-alpha scrolled-white menu-right topmenu-right" id="work-menu">
+
+    <!-- Begin of menu icon toggler -->
+   <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
+      <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
+      <span class="menu-icon menu-icon-normal">
+        <span class="bars">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+        </span>
+      </span>
+    </button>
+    <!-- End of menu icon toggler -->
+
+    <!-- Begin of logo/brand -->
+    <a class="navbar-brand" href="index">
+      <span class="logo">
+        <img class="light-logo" src="img/logo/logo.png" alt="Logo">
+      </span>
+    </a>
+    <!-- End of logo/brand -->
+
+    <!-- begin of menu wrapper -->
+    <div class="all-menu-wrapper" id="navbarMenu">
+      <!-- Begin of top menu -->
+      <nav class="navbar-topmenu">
+        <!-- Begin of CTA Actions, & Icons menu -->
+        <div class="footer-right header-icons icons-menu">
+          <ul class="social">
+            <li>
+              <a href="#">
+                <i class="icon fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="icon fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="icon fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- End of CTA & Icons menu -->
+      </nav>
+      <!-- End of top menu -->
+
+      <!-- Begin of hamburger mainmenu menu -->
+      <nav class="navbar-mainmenu full-nav">
+        <ul class="navbar-nav ul-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="index">Home</a>
+          </li><br>
+          <hr class="">
+          <li class="nav-item">
+            <a class="nav-link" href="values">Our values</a>
+          </li><br>
+          <hr class="">
+          <li class="nav-item">
+            <a class="nav-link" href="ourwork">Our work</a>
+          </li><br>
+          <hr class="">
+          <li class="nav-item">
+            <a class="nav-link" href="getintouch">Get in touch </a>
+          </li>
+          
+        </ul>
+      </nav>
+      <!-- End of hamburger mainmenu menu -->
+
+    </div>
+    <!-- end of menu wrapper -->
+  </header>
   <!-- END OF site header Menu-->
 
   <!-- BEGIN OF page cover -->
@@ -85,36 +192,35 @@ http://miradontsoa.com
   <!--END OF page cover -->
 
   <!-- BEGIN OF page main content -->
-  <main class="page-main page-fullpage main-anim" id="mainpage">
-
-
-
-    <!-- Begin of register/login/signin section -->
-    <div class="section section-list-feature fp-auto-height-responsive " data-section="contactarea" id="register">
-    
-      <!-- Begin of section wrapper -->
+    <main class="page-main page-fullpage main-anim" id="mainpage">
+        <div class="section section-list-feature fp-auto-height-responsive " data-section="contactarea" id="register">
             <div class="section-content anim" style="width:100%;">
-            <div class="row"  style="" id="vid-div">
-                <div class="press-video">
-                    <video class="video" id="myAudio"   style="">  
-                        <source src="vid/CUBE%20at%207.mp4" type=video/mp4>
-                    </video>
-                    <div class="playpause-content playpause">
-                        <h1 class="">Press play</h1>
-                        <a class="playpause round-button" ><i class="fa fa-play fa-2x"></i></a>
+                <div class="container-fluid" id="fluid-vid">
+                    <div class="row">
+                        <div class="video-dv">
+                            <video class="video" id="myAudio"   style="">  
+                                <source src="vid/Concierge%20_3%20Nov.%202020%2002.mp4" type=video/mp4>
+                            </video>
+                            <div class="playpause-content playpause">
+                                <h1 class="">Press play</h1>
+                                <a class="playpause round-button" ><i class="fa fa-play fa-2x"></i></a>
+                             </div>
+
+                        </div>
                      </div>
-                    <div class="bet-btn" id="btnDisplay">
-                        <p class="anim-2" id="demo"></p>
-                    </div>
-                </div>
+              </div>
+              <div class="center-btn">
+                <div class="bet-btn" id="btnDisplay">
+                    <p class="anim-2" id="demo"></p>
+                </div>  
+            </div>
             </div>
         </div>
-   
-    </div>
-    <!-- End of register/login/signin section -->
+      
+        
+    </main>  
+        
 
-    <!-- End of contact section -->
-  </main>
   <!-- END OF page main content -->
 
   <!-- BEGIN OF page footer -->
@@ -167,7 +273,7 @@ http://miradontsoa.com
 <script>
 var aud = document.getElementById("myAudio");
 aud.onended = function() {
-    document.getElementById("demo").innerHTML = "<a href='getintouch' class'btn btn-default'>Get in touch</a>";
+    document.getElementById("demo").innerHTML = "<p>Would you like to get in touch now?</p><a href='getintouch' class='btn btn-default' style='margin-right:10px;'>Yes</a><a class='btn btn-default' href='index' style='margin-left:10px;'>I’ll surf the website some more </a>";
     document.getElementById("btnDisplay").style.display = "block";
 }
 
@@ -177,41 +283,7 @@ aud.onplay = function() {
 
 ;
 </script>
-<!--
-<script>
-  var $video  = $('video'),
-    $window = $(window); 
 
-$(window).resize(function(){
-    
-    var height = $window.height();
-    $video.css('height', height);
-    
-    var videoWidth = $video.width(),
-        windowWidth = $window.width(),
-    marginLeftAdjust =   (windowWidth - videoWidth) / 2;
-    
-    $video.css({
-        'height': height, 
-        'marginLeft' : marginLeftAdjust
-    });
-}).resize();  
-    
-</script>
--->
-<script type="text/javascript">
-  window.__lc = window.__lc || {};
-  window.__lc.license = 12332553;
-  (function() {
-    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-  })();
-</script>
-<noscript>
-<a href="https://www.livechatinc.com/chat-with/12332553/" rel="nofollow">Chat with us</a>,
-powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
-</noscript>
 </body>
 
 

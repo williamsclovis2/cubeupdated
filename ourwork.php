@@ -167,7 +167,7 @@
                         <div class="col-md-12">
                           <div id="carousel-custom-16<?=$item->id?>" class="carousel slide" data-ride="carousel" data-interval="false" >
                           <!-- Wrapper for slides -->
-                              <div class="carousel-inner" role="listbox">
+                              <div class="carousel-inner" role="listbox" id="carousel-margin">
 
                               <?php 
                                   $inner_sql="SELECT * FROM picture WHERE album_id=".$item->id;
@@ -288,6 +288,7 @@
   <script src="work/js/jquery-2.1.4.min.js"></script>
   <script src="work/js/custom.js"></script>
   <script src="work/js/bootstrap.min.js"></script>
+<!--
   <script type="text/javascript">
   window.__lc = window.__lc || {};
   window.__lc.license = 12332553;
@@ -301,6 +302,7 @@
 <a href="https://www.livechatinc.com/chat-with/12332553/" rel="nofollow">Chat with us</a>,
 powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
 </noscript>
+-->
 </body>
 
 </html>

@@ -49,7 +49,37 @@ http://miradontsoa.com
   <script src="js/vendor/modernizr-2.7.1.min.js"></script>
   <link rel="stylesheet" href="css/animate.css">
 </head>
-
+<style>
+    #fluid-vid{
+        padding: 0 80px;
+        margin-top: 80px;
+    }
+    .video-dv video{
+        width: 100%;
+    }
+    .center-btn{
+        margin: auto;
+        text-align: center;
+        margin-top: -50px !important;
+    }
+    .center-btn a{
+        width: 250px;
+        background-color: transparent;
+        border-radius: unset;
+        border: 1px solid #fff;
+        color: #ffff;
+    }
+    .center-btn a:hover{
+        background-color: transparent;
+        border: 1px solid #fff;
+    }
+    .center-btn p{
+        padding-bottom: unset !important;
+    }
+    .playpause-content{
+        padding-right: 160px;
+    }
+</style>
 <body id="menu" class="body-page">
    <?php include("header.php");?>
  
@@ -386,25 +416,32 @@ http://miradontsoa.com
 
 
     <!-- Begin of register/login/signin section -->
-    <div class="section section-list-feature fp-auto-height-responsive with-landscap" data-section="9" id="register">
+    <div class="section section-list-feature fp-auto-height-responsive with-landscap " data-section="9" id="register" style="background-color:#000;">
     
       <!-- Begin of section wrapper -->
             <div class="section-content anim" style="width:100%;">
-            <div class="row"  style="" id="vid-div">
-                <div class="press-video">
-                    <video class="video" id="myAudio"   style="">  
-                        <source src="vid/CUBE%20at%207.mp4" type=video/mp4>
-                    </video>
-                    <div class="playpause-content playpause">
-                        <h1>Press play</h1>
-                        <a class="playpause round-button" ><i class="fa fa-play fa-2x"></i></a>
-                     </div>
-                    <div class="bet-btn" id="btnDisplay">
-                        <p class="anim-2" id="demo"></p>
+                <div class="container-fluid container-vid black-bg-height">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                    <div class="col-md-8 h-video" id="fluid-vid-col-8" >
+                         <video class="video" id="myAudio"   style="width:100%;">  
+                            <source src="vid/CubeHybridEvents2Nov2020.mp4" type=video/mp4>
+                        </video>
+                        <div class="playpause-content playpause">
+                                <h1 class="">Press play</h1>
+                                <a class="playpause round-button" ><i class="fa fa-play fa-2x"></i></a>
+                        </div>
                     </div>
+                    <div class="col-md-2"></div>
+                    </div>
+                   
                 </div>
+                <div class="center-btn">
+                <div class="bet-btn" id="btnDisplay">
+                    <p class="anim-2" id="demo"></p>
+                </div>  
             </div>
-        </div>
+            </div>
       <!-- End of section wrapper -->
 
       <!-- Arrows scroll down/up -->
@@ -456,7 +493,7 @@ http://miradontsoa.com
 <script>
 var aud = document.getElementById("myAudio");
 aud.onended = function() {
-    document.getElementById("demo").innerHTML = "<a href='getintouch' class'btn btn-default'>Get in touch</a>";
+    document.getElementById("demo").innerHTML = "<p>Would you like to get in touch now?</p><a href='getintouch' class='btn btn-default' style='margin-right:10px;'>Yes</a><a class='btn btn-default' href='index' style='margin-left:10px;'>I’ll surf the website some more </a>";
     document.getElementById("btnDisplay").style.display = "block";
 }
 
@@ -467,6 +504,7 @@ aud.onplay = function() {
 ;
 </script>
 
+<!--
 <script type="text/javascript">
   window.__lc = window.__lc || {};
   window.__lc.license = 12332553;
@@ -480,6 +518,7 @@ aud.onplay = function() {
 <a href="https://www.livechatinc.com/chat-with/12332553/" rel="nofollow">Chat with us</a>,
 powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
 </noscript>
+-->
 </body>
 
 

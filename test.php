@@ -1,96 +1,59 @@
-<body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<div class="wrapper">
-    <video class="video blurEffect" id="myAudio"  style="width:300px;">  
-        <source src="vid/loop-bg.mp4" type=video/mp4>
-    </video>
-    <p id="demo"></p>
-        <div class="content">
-            <div class="play">►</div>
-        </div>
-</div>
-<audio id="myAudio" controls>
-  <source src="horse.ogg" type="audio/ogg" >
-  <source src="img/_Lamour_%20-%20J%20Balvin%20x%20Wizkid%20Type%20Beat.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-    
-<h1>The onclick Event</h1>
-
-<p>The onclick event is used to trigger a function when an element is clicked on.</p>
-
-<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
-
-<button onclick="myFunction()">Click me</button>
-
-
-
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "<a href='#'>tststss</a>";
+<style>
+    .choose-flat__select {
+	-webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+	background-color: #fff;
+	display: inline;
+	box-sizing: border-box;
+	height: 33px;
+	width: 132px;
+	border: 1px solid #ababab;
+	border-radius: 5px;
+	cursor: pointer;
+	padding-left: 13px;
+ 	background: url('../images/select-arrow.png') 100% 0% no-repeat #fff;
+ 	color: #000;
 }
+
+.default
+{
+  color: red;
+}
+
+.choose-flat__select option 
+{ 
+	color: #000;
+}
+</style>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<select id="year-ready" name="" class="choose-flat__select default">
+  <option value="" default selected hidden>Year...</option>
+  <option value="2017">2017</option>
+  <option value="2018">2018</option>
+  <option value="2019">2019</option>
+  <option value="2020">2020</option>
+  <option value="2021">2021</option>
+</select>
+<script>
+    $(document).ready(function (){
+  
+   $("#year-ready").change(function() {
+       var val = $(this).val();
+       
+       if(val == "")
+       {
+           $(this).addClass("default");
+       }
+       else
+       {
+          $(this).removeClass("default");
+       }
+    });
+
+});
 </script>
 </body>
-<style>
-.wrapper {
-    position: relative;
-    display: inline-block;
-}
-
-.blurEffect {
-    -webkit-filter: blur(7px);
-    -o-filter: blur(7px);
-    -moz-filter: blur(7px);
-    -ms-filter: blur(7px);
-    filter: blur(7px);
-}
-
-.content {
-    position: absolute;
-    display: inline-block;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    color: #FFF;
-    width: 100%;
-    text-align: center;
-    z-index: 999;
-}
-
-.play {
-    font-size: 50px;
-    cursor: pointer;
-    border: 1px solid #FFF;
-    display: inline-block;
-    text-align: center;
-    padding: 5px 25px;
-}
-
-.play:hover {
-    color: red;
-}
-
-</style>
-<script>
-$(document).ready(function(){
-    $('.play').click(function () {
-        if($(this).parent().prev().get(0).paused){
-            $(this).parent().prev().get(0).play();
-            $(this).parent().prev().removeClass('blurEffect');
-            $('.content').hide();
-        }
-    });
-
-    $('.video').on('ended',function(){
-        $(this).addClass('blurEffect');
-      $('.content').show();
-    });
-})
-
-</script>
-<script>
-var aud = document.getElementById("myAudio");
-aud.onended = function() {
-    document.getElementById("demo").innerHTML = "<a href='#'>tststss</a>";
-};
-</script>

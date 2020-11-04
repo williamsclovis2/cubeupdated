@@ -477,6 +477,7 @@ aud.onplay = function() {
 ;
 </script>
 <!-- Start of LiveChat (www.livechatinc.com) code -->
+<!--
 <script type="text/javascript">
   window.__lc = window.__lc || {};
   window.__lc.license = 12332553;
@@ -490,6 +491,7 @@ aud.onplay = function() {
 <a href="https://www.livechatinc.com/chat-with/12332553/" rel="nofollow">Chat with us</a>,
 powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
 </noscript>
+-->
 <!-- End of LiveChat code -->
 
 </body>

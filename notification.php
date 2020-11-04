@@ -44,26 +44,14 @@ http://miradontsoa.com
   <link rel="stylesheet" href="css/aos.css">
   <!-- add alt layout here -->
   <link rel="stylesheet" href="css/style-default.css">
+  <link rel="shortcut icon" href="img/logo/Cube_U_6.gif">
 
   <script src="js/vendor/modernizr-2.7.1.min.js"></script>
   <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body id="menu" class="body-page">
-  <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-  <!-- Page Loader : just comment these lines to remove it -->
-
-  <!-- BEGIN OF site header Menu -->
-   <?php include("header.php");?>
-  <!-- END OF site header Menu-->
-
  
-  <!--END OF page cover -->
-
-  <!-- BEGIN OF page main content -->
   <main class="page-main page-fullpage main-anim" id="mainpage">
       <div class="container">
        <div class="row">
@@ -71,31 +59,33 @@ http://miradontsoa.com
             <div class="col-12 col-md-6">
                 <div class="notification text-center">
                 
-                <p style="color:#000; font-size: 14px; line-height: 20px;font-family: 'Lato-light' !important;">Thank you for getting in touch. While you are here, please check out our social media pages & follow us to engage with us & also stay updated on what we are working on. </p>
+                <p style="color:#000; font-size: 14px;font-family: 'Lato-light' !important;margin-bottom:0;">Thank you for getting in touch with us. We will revert shortly. </p>
+                <p style="color:#000; font-size: 14px; line-height: 20px;font-family: 'Lato-light' !important;">In the meantime, please take a minute to follow us <br>on our social media accounts:</p>
                 <div class="div-icon">
                     <div class="socail_links">
                     <ul>
-                       
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-google-plus"></i>
-                            </a>
-                        </li>
-                        <li>
+                       <li>
                             <a href="https://twitter.com/cuberwanda?lang=en">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/CubeRwanda">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://instagram.com/cube__rwanda?igshid=ufdv2zvcxaws">
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
                 </div><br>
+                 <p style="color:#000; font-size: 14px; line-height: 20px;font-family: 'Lato-light' !important;">Warm wishes, The Cube team !</p>
                  <div class="about_btn gogettaz-btn " >
-                    <a class="boxed-btn3" href="index" style="border-radius: 15rem; width: 200px;">Go back</a>
+                    <a class="" href="index" style="border-radius: 15rem; width: 200px;"><img src="img/logo/logo.png" style="height:48px;">   </a>
                  </div>
            
         </div>

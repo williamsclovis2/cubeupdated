@@ -243,7 +243,9 @@ div#images{padding:1px;}
 }
 .more-button .btn-default:hover{background-color:rgba(0,0,0,0.5);}
 .more-button .btn-default{font-weight:400;}
-
+#carousel-margin{
+    margin-top: 130px;
+}
 
 
 

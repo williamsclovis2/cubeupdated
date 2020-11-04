@@ -285,6 +285,7 @@ http://miradontsoa.com
 <!--  <script src="js/form_script.js"></script>-->
 
   <!-- Javascript main files -->
+<!--
   <script src="js/main.js"></script>
   <script src="js/wow.js"></script>
   <script type="text/javascript">
@@ -300,6 +301,7 @@ http://miradontsoa.com
 <a href="https://www.livechatinc.com/chat-with/12332553/" rel="nofollow">Chat with us</a>,
 powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
 </noscript>
+-->
 </body>
 
 
