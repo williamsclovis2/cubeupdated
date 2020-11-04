@@ -891,6 +891,10 @@ span.caret{
     height: 100px !important;
     width: 200px 
 }
+.inyange_logo{height: 100px !important;}
+.bpr_logo{height: 100px !important;}
+#bg_ea8826{background-color:#ea8826 !important;}
+
 .with-brand{
     top: 25% !important;
     
@@ -900,7 +904,7 @@ span.caret{
     background-color:#f8f8f8 !important;
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
     position: relative;
-    top: 40%;
+    top: 30%;
     border-radius: 15px;
 }
 

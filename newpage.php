@@ -80,7 +80,7 @@ http://miradontsoa.com
                   <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
                    <div class="brand-img">
                        <img src="img/logo/clients/babyl-white-logo.png" class="client_logo">
-                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                      <p class="anim-2" style="width:100%;">babyl is Rwanda’s first digital healthcare service providing access to medical consultations through any mobile phone. Owned by Babylon UK, babyl Rwanda was established in 2016 and select Cube to be its lead creative agency for its first investments outside the UK. </p>
                     </div>
                     <hr class="align-white anim-2" style="position:relative;float:left;">
                   </div>
@@ -97,8 +97,9 @@ http://miradontsoa.com
                  </video>
                 </div>
                  <div class="col-md-6 right  colon-height" id="solid-bg-o">
-                  <div class="title-desc orang-desc text-right " id="right-margin">
-                    <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                  <div class="title-desc orang-desc text-right " id="right-margin" style="position:relative !important;">
+                    <h6 class="anim-2" style="width:100%;">Services </h6>
+                    <p class="anim-2" style="width:100%;">Communication strategy | Creative design | PR | Event Management <br>| Social media  </p>
                     <hr class="align-white anim-2" style="position:relative;float:right;">
                   </div>
                 </div>
@@ -126,8 +127,8 @@ http://miradontsoa.com
                 <div class="col-md-6 right  colon-height" id="solid-bg-b">
                   <div class="title-desc orang-desc with-brand text-right " id="right-margin" style="padding-left:15px;">
                      <div class="brand-img">
-                       <img src="img/logo/clients/logo3.png">
-                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                       <img src="img/logo/clients/Inyange_Logo.png" class="inyange_logo">
+                      <p class="anim-2" style="width:100%;">Inyange industries is a leading food processing company in Rwanda, manufacturing a variety of products. Cube worked with Inyange as its agency where they were involved into website creation, brand equity, production quality etc </p>
                     </div>
                     <hr class="align-white anim-2" style="position:relative;float:right;">
                   </div>
@@ -137,9 +138,10 @@ http://miradontsoa.com
               <div class="row customers cust-bg-1 anim-2">
                 <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-o">
                   <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
-                   <div class="brand-img">
-                       <img src="img/logo/clients/logo3.png">
-                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                   <div class="brand-img" style="margin-top:30px;">
+                       
+                       <h6 class="anim-2" style="width:100%;">Services</h6>
+                      <p class="anim-2" style="width:100%;">Communication strategy | Creative design | PR | Social media |<br> Television & Radio Adverts </p>
                     </div>
                     <hr class="align-white anim-2" style="position:relative;float:left;">
                   </div>
@@ -170,8 +172,8 @@ http://miradontsoa.com
                 <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-b">
                   <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
                    <div class="brand-img">
-                       <img src="img/logo/clients/logo3.png" class="client_logo">
-                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                       <img src="img/logo/clients/BPR2_Logo.png" class="bpr_logo">
+                      <p class="anim-2" style="width:100%;">Cube started working with Atlas Mara from 2014 when the group purchased BRDC. Cube led the rebrand exercise in Rwanda from graphic design, design, communication planning & media buying, event management and more. After a competitive bidding process in 2016, BPR Atlas Mara selected Cube to continue as its agency in Rwanda. </p>
                     </div>
                     <hr class="align-white anim-2" style="position:relative;float:left;">
                   </div>
@@ -189,8 +191,9 @@ http://miradontsoa.com
                   <img src="img/SMlayout_BPR.jpg" class="img img-responsive">
                 </div>
                  <div class="col-md-6 right  colon-height" id="solid-bg-o">
-                  <div class="title-desc orang-desc text-right " id="right-margin">
-                    <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                  <div class="title-desc orang-desc text-right " id="right-margin" style="position:relative !important;">
+                    <h6 class="anim-2" style="width:100%;">Services </h6>
+                    <p class="anim-2" style="width:100%;">Communication strategy | Creative design | PR | Event Management | Social media |<br> Television & Radio Adverts   </p>
                     <hr class="align-white anim-2" style="position:relative;float:right;">
                   </div>
                 </div>
@@ -218,8 +221,8 @@ http://miradontsoa.com
                 <div class="col-md-6 right  colon-height" id="solid-bg-b">
                   <div class="title-desc orang-desc with-brand text-right " id="right-margin" style="padding-left:15px;">
                      <div class="brand-img">
-                       <img src="img/logo/clients/logo3.png">
-                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                       <img src="img/logo/clients/Smart_Africa.png">
+                      <p class="anim-2" style="width:100%;">Cube was engaged to produce Transform Africa Summit 2017 & 2018 for the Smart Africa Secretariat. The summit is the smart Africa flagship event. Transform Africa Summit features specific streams tackling current and future ICT topics. </p>
                     </div>
                     <hr class="align-white anim-2" style="position:relative;float:right;">
                   </div>
@@ -227,11 +230,12 @@ http://miradontsoa.com
               </div>
 
               <div class="row customers cust-bg-1 anim-2">
-                <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-o">
+                 <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-o">
                   <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
-                   <div class="brand-img">
-                       <img src="img/logo/clients/logo3.png">
-                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                   <div class="brand-img" style="margin-top:30px;">
+                       
+                       <h6 class="anim-2" style="width:100%;">Services</h6>
+                      <p class="anim-2" style="width:100%;">Communication strategy | Creative design | PR | Event Management | Social media | Television & Radio Adverts</p>
                     </div>
                     <hr class="align-white anim-2" style="position:relative;float:left;">
                   </div>
@@ -259,11 +263,11 @@ http://miradontsoa.com
         <div class="section-content anim">
           <div class="col-12 col-lg-12">
               <div class="row customers anim-1">
-                <div class="col-sm-12 col-md-6 left colon-height" id="solid-bg-b">
+                <div class="col-sm-12 col-md-6 left colon-height" id="bg_ea8826">
                   <div class="title-desc orang-desc with-brand text-left " id="left-margin" style="padding-right:15px;">
                    <div class="brand-img">
-                       <img src="img/logo/clients/logo3.png" class="client_logo">
-                      <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                       <img src="img/logo/clients/Mott_Logo.png" class="client_logo">
+                      <p class="anim-2" style="width:100%;">MoR MacDonald, selected Cube to manage its TVET Girl campaign that is funded for the WDA. Cube was tasked with creating the concept that would see role models & students go on a national road trip to engage & encourage girls to join STEM related fields.  </p>
                     </div>
                     <hr class="align-white anim-2" style="position:relative;float:left;">
                   </div>
@@ -280,9 +284,10 @@ http://miradontsoa.com
                 <div class="col-sm-12 col-md-6 pd-r-0  colon-height">
                   <img src="img/SMlayout_TVET.jpg" class="img img-responsive">
                 </div>
-                 <div class="col-md-6 right  colon-height" id="solid-bg-o">
-                  <div class="title-desc orang-desc text-right " id="right-margin">
-                    <p class="anim-2" style="width:100%;">Event Production Management | Stage design &amp; construction | Provision of Screens, Lighting &amp; AV equipment | Media Audio &amp; Video Distribution </p>
+                 <div class="col-md-6 right  colon-height" id="solid-bg-b">
+                  <div class="title-desc orang-desc text-right " id="right-margin" style="position:relative !important;">
+                    <h6 class="anim-2" style="width:100%;">Services </h6>
+                    <p class="anim-2" style="width:100%;">Communication strategy | Creative design | PR | Event Management | Social media |<br> Television & Radio Adverts   </p>
                     <hr class="align-white anim-2" style="position:relative;float:right;">
                   </div>
                 </div>

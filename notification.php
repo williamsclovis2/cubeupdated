@@ -85,7 +85,7 @@ http://miradontsoa.com
                 </div><br>
                  <p style="color:#000; font-size: 14px; line-height: 20px;font-family: 'Lato-light' !important;">Warm wishes, The Cube team !</p>
                  <div class="about_btn gogettaz-btn " >
-                    <a class="" href="index" style="border-radius: 15rem; width: 200px;"><img src="img/logo/logo.png" style="height:48px;">   </a>
+                    <a class="" href="index" style="border-radius: 15rem; width: 200px;"><img src="img/logo/black_logo.png" style="height:88px;">   </a>
                  </div>
            
         </div>
